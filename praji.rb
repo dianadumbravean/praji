@@ -5,5 +5,5 @@ get '/' do
 end
 
 get "/prajituri" do
-	'{name" : "cheesecake"}
+	'{name" : "cheesecake"}'
 end
