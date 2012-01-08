@@ -1,7 +1,7 @@
 require "sinatra"
 
 get '/' do
-	"Prajiturici"
+	File.read(File.join("public", "index.html"))
 end
 
 get "/prajituri" do
